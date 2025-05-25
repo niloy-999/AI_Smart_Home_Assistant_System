@@ -1,3 +1,4 @@
+
 # 🏠 AI Smart Home Assistant (Bilingual Voice & GUI-based)
 
 A Python-based smart assistant for home control that responds to both **voice** and **text** commands in **English** and **Bangla**. Supports control of lights, fan, and AC, weather queries, reminders, and live traffic info with map display.
@@ -45,4 +46,63 @@ A Python-based smart assistant for home control that responds to both **voice** 
 
 ```bash
 pip install -r requirements.txt
+```
 
+### 2️⃣ Set Google API Key
+
+Create an `.env` file or directly set your `GOOGLE_API_KEY` in `traffic.py`:
+
+```python
+GOOGLE_API_KEY = "YOUR_API_KEY_HERE"
+```
+
+### 3️⃣ Run the App
+
+```bash
+python gui.py
+```
+
+---
+
+## 🧪 Sample Commands
+
+### 💬 English
+
+- `Turn on the light`
+- `What's the weather in Dhaka`
+- `Traffic from Dhaka to Kushtia`
+- `Remind me to buy milk`
+
+### 💬 Bangla
+
+- `আজকের আবহাওয়া কেমন`
+- `লাইট অন করো`
+- `ঢাকা থেকে কুষ্টিয়া ট্রাফিক`
+
+---
+
+## 📁 File Overview
+
+| File | Description |
+|------|-------------|
+| `gui.py` | Main application GUI |
+| `voice_interface.py` | Handles speech I/O |
+| `processor.py` | Command parsing and routing |
+| `device_controller.py` | Simulated device management |
+| `assistant_features.py` | Weather and reminders |
+| `traffic.py` | Google Maps API integration |
+
+---
+
+## ⚙️ Future Enhancements
+
+- Add Smart Device Simulation (GUI buttons + state indicators)
+- Home automation hardware support (e.g., Arduino or Raspberry Pi)
+- Wake word activation
+- NLP improvement with Transformer-based models
+
+---
+
+## 🤖 Made With AI and ❤️
+
+This project was built for learning and exploring the intersection of voice interfaces, bilingual AI, and smart home control.
