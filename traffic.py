@@ -5,7 +5,7 @@ import requests
 STATIC_MAP_API = "https://maps.googleapis.com/maps/api/staticmap"
 DIRECTIONS_API = "https://maps.googleapis.com/maps/api/directions/json"
 
-GOOGLE_API_KEY = "AIzaSyDOvCVVitGxy4YkVEVXpQZmpU2EdK3z0ew"  
+GOOGLE_API_KEY = "Find Your Own"  
 DEFAULT_HOME = "Dhaka"
 
 
