@@ -59,7 +59,7 @@ GOOGLE_API_KEY = "YOUR_API_KEY_HERE"
 ### 3️⃣ Run the App
 
 ```bash
-python gui.py
+python3 gui.py
 ```
 
 ---
@@ -87,7 +87,7 @@ python gui.py
 |------|-------------|
 | `gui.py` | Main application GUI |
 | `voice_interface.py` | Handles speech I/O |
-| `processor.py` | Command parsing and routing |
+| `command_processor.py` | Command parsing and routing |
 | `device_controller.py` | Simulated device management |
 | `assistant_features.py` | Weather and reminders |
 | `traffic.py` | Google Maps API integration |
@@ -103,6 +103,6 @@ python gui.py
 
 ---
 
-## 🤖 Made With AI and ❤️
+## 🤖 Made With AI
 
 This project was built for learning and exploring the intersection of voice interfaces, bilingual AI, and smart home control.
