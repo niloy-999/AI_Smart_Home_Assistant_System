@@ -1,0 +1,8 @@
+```txt
+pyttsx3
+gTTS
+SpeechRecognition
+pyaudio
+langdetect
+Pillow
+requests
