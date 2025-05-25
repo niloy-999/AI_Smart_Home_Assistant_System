@@ -5,7 +5,7 @@ reminders = []
 
 
 
-API_KEY = "69b1729778cfe939a825e1a3b1c761af" 
+API_KEY = "Find Your Own" 
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 def get_weather(city="Dhaka"):
